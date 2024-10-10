@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Inkwell Explorer",
+        "unlocked_message": "Yay you logged in your first journal",
+        "locked_message": "Write in your journal",
+        "requirement": [1, 15, 30, 100],
+        "user_stat": "total_journal"
+    },
+    {
+        "id": 2,
+        "title": "Mood Maven",
+        "unlocked_message": "Awesome, you tracked your mood for the first time.",
+        "locked_message": "Create a mood entry",
+        "requirement": [1, 15, 30, 100],
+        "user_stat": "total_mood"
+    },
+    {
+        "id": 3,
+        "title": "The Planner",
+        "unlocked_message": "You created your first checklist list item.",
+        "locked_message": "Create a checklist item",
+        "requirement": [1, 15, 30, 100],
+        "user_stat": "total_checklist"
+    },
+    {
+        "id": 4,
+        "title": "Completionist",
+        "unlocked_message": "Complete Checklist Items",
+        "locked_message": "Complete checklist items",
+        "requirement": [1, 15, 30, 100],
+        "user_stat": "total_checklist_completed"
+    },
+    {
+        "id": 5,
+        "title": "Mission Accomplished",
+        "unlocked_message": "Complete Goals",
+        "locked_message": "Complete 20 goals",
+        "requirement": [1, 15, 30, 100],
+        "user_stat": "total_goal_completed"
+    }
+]

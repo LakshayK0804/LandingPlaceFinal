@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 5.4.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "ios":{
+        "simulator": true
+      },
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "production": {
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "ios":{
+        "appleId": "sheltonlabpsu@gmail.com",
+         "ascAppId": "6471537819",
+         "appleTeamId": "XKTNJ6X3D4"
+      }
+    }
+  }
+}

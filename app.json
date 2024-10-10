@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Landing Place",
+    "slug": "LandingPlace",
+    "version": "1.0.8",
+    "sdkVersion": "51.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/0e677434-0cc7-4f3b-bac1-6f0e31926dd4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.varlab.landingplace"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.varlab.landingplace"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e677434-0cc7-4f3b-bac1-6f0e31926dd4"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "chrismamatas"
+        }
+      ],
+      "expo-font"
+    ],
+    "runtimeVersion": "1.0.0",
+    "owner": "varlaborg"
+  }
+}
