@@ -3,7 +3,7 @@
     "name": "Landing Place",
     "slug": "LandingPlace",
     "version": "1.0.8",
-    "sdkVersion": "51.0.0",
+    "sdkVersion": "52.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
